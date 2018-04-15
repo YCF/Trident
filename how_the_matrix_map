@@ -1,0 +1,19 @@
+#####matrix:18x9
+{ data_buffer[0] ，data_buffer[1]，data_buffer[2] }，   //18
+{ data_buffer[3] ，data_buffer[4]，data_buffer[5] }，
+{ data_buffer[6] ，data_buffer[7]，data_buffer[8] }，
+{ data_buffer[9] ，data_buffer[10]，data_buffer[11] }，
+{ data_buffer[12] ，data_buffer[13]，data_buffer[14] }，
+{ data_buffer[15] ，data_buffer[16]，data_buffer[17] }，
+{ data_buffer[18] ，data_buffer[19]，data_buffer[20] }，
+{ data_buffer[21] ，data_buffer[22]，data_buffer[23] }，
+{ data_buffer[24] ，data_buffer[25]，data_buffer[26] }，
+
+
+#### about the '<<'
+data_payload_left[0] & 1<<X) ? 1:0) << Y
+
+X: test it youself
+
+Y:
+{ Y,Y,Y,Y,Y,Y ，data_buffer[1]，data_buffer[2] }
